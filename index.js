@@ -29,13 +29,13 @@ const elTiles = document.querySelector("#tiles");
 elTiles.textContent = tiles;
 
 const elSubTotal = document.querySelector("#subTotal");
-elSubTotal.textContent = `${subTotal}`;
+elSubTotal.textContent = `$${subTotal}`;
 
 const elShipping = document.querySelector("#shipping");
-elShipping.textContent = `${shipping}`;
+elShipping.textContent = `$${shipping}`;
 
 const elGrandTotal = document.querySelector("#grandTotal");
-elGrandTotal.textContent = `${grandTotal}`;
+elGrandTotal.textContent = `$${grandTotal}`;
 
 const payNowBtn = document.querySelector(".action__btn");
 
