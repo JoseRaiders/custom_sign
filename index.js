@@ -44,5 +44,5 @@ const payNowBtn = document.querySelector(".action__btn");
 =============================================*/
 
 payNowBtn.addEventListener("click", () => {
-  alert(`Your purchase ${customer} has been confirmed`);
+  alert(`${customer}, your purchase has been confirmed`);
 });
