@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+    <meta name="description" content="Build your custom sign" />
+    <meta name="keywords" content="Custom sign, custom tiles, tiles" />
+    <meta name="author" content="Anuska Jose" />
+    <title>Custom Sign</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <h1 class="title"></h1>
+      </header>
+      <main class="content">
+        <section class="signs">
+          <div class="greeting" id="greeting-message">
+            Howdy Nuk, please check your order:
+          </div>
+          <table class="sign__details">
+            <tr>
+              <td>Custom sign:</td>
+              <td id="userSign"></td>
+            </tr>
+            <tr>
+              <td>Total tiles:</td>
+              <td id="tiles"></td>
+            </tr>
+            <tr>
+              <td>Subtotal:</td>
+              <td id="subTotal">$</td>
+            </tr>
+            <tr>
+              <td>Shipping:</td>
+              <td id="shipping">$</td>
+            </tr>
+            <tr>
+              <td>Grand total:</td>
+              <td id="grandTotal">$</td>
+            </tr>
+          </table>
+          <a href="#" class="action__btn">Pay Now</a>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">&#169; 2024 Custom Sign</p>
+      </footer>
+    </div>
+
+    <script src="index.js" defer></script>
+  </body>
+</html>
