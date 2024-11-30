@@ -2,7 +2,7 @@
 =               Welcome Message               =
 =============================================*/
 let greetingMessage = "Hi ";
-let customer = "Nuk";
+let customer = "Jane";
 // let customer = prompt("Enter your name?");
 let message = ", please check your order:";
 const welcome = greetingMessage + customer + message;

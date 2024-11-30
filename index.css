@@ -37,6 +37,8 @@ body {
   line-height: 1.5em;
   height: 2em;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .sign__details {
@@ -76,6 +78,10 @@ tr td:first-child {
     top: 20px;
     right: 54px;
     margin-bottom: 20px;
+  }
+
+  .sign {
+    padding: 30px 20px;
   }
 
   .sign__details {
